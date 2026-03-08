@@ -21,8 +21,6 @@ def translacio(x, y, dx, dy):
     """
 
     # TODO alumnes
-    new_x = x + dx
-    new_y = y + dy
 
     return new_x, new_y
 
@@ -43,7 +41,5 @@ def gir(x, y, angle):
     rad = math.radians(angle)
 
     # TODO alumnes
-    new_x = x * math.cos(rad) - y * math.sin(rad)
-    new_y = x * math.sin(rad) + y * math.cos(rad)
 
     return new_x, new_y
