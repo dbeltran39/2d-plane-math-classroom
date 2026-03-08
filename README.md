@@ -19,8 +19,6 @@ D'aquesta manera poden observar com:
 
 * una **translació** desplaça un objecte al pla
 * un **gir** canvia la seva orientació
-* les **simetries** transformen la figura
-* les **transformacions** es poden combinar
 
 Aquest enfocament permet treballar també elements de **pensament computacional**.
 
@@ -101,26 +99,6 @@ Aquestes funcions controlen el moviment de l'avió.
 
 ---
 
-## Translació
-
-Matemàticament:
-
-```
-(x, y) → (x + dx, y + dy)
-```
-
----
-
-## Gir
-
-Gir d'un punt respecte l'origen:
-
-```
-x' = x cosθ − y sinθ
-y' = x sinθ + y cosθ
-```
-
----
 
 # Controls del joc
 
